@@ -24,6 +24,7 @@ class NewAlarmViewController: UIViewController, AlarmDatasetDelegate {
         AlarmDataset.registerDelegate(self)
         self.edgesForExtendedLayout = []
         self.extendedLayoutIncludesOpaqueBars = true
+        
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -32,6 +33,7 @@ class NewAlarmViewController: UIViewController, AlarmDatasetDelegate {
     
     override func loadView() {
         view = ViewHolder()
+        view.backgroundColor = .white
         print("Detail view load")
     }
     override func viewDidLoad() {

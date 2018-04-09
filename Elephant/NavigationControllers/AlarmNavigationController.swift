@@ -18,7 +18,7 @@ class AlarmNavigationController: UINavigationController {
         
         // Tab bar item
         self.tabBarItem = alarmListButton
-        self.navigationBar.barTintColor = .purple
+        self.navigationBar.barTintColor = .white
         
     }
     

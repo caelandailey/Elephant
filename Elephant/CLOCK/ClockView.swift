@@ -32,6 +32,7 @@ class ClockView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateClock), userInfo: nil, repeats: true)
+        self.backgroundColor = .white
     }
     
     // ACTION FOR CLOCK
@@ -58,7 +59,7 @@ class ClockView: UIView {
         
         //Setup
         context.clear(bounds)
-
+        
         // Border
         let color = UIColor(red: 51/256, green: 51/256, blue: 51/256, alpha: 1.0)
         context.setFillColor(color.cgColor)

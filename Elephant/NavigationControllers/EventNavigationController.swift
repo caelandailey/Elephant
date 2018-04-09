@@ -21,7 +21,7 @@ class EventNavigationController: UINavigationController {
         
         // Button for bottom tab bar
         self.tabBarItem = eventListButton
-        self.navigationBar.barTintColor = .orange
+        self.navigationBar.barTintColor = .white
     }
     
     // Required?

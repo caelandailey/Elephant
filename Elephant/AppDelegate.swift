@@ -39,7 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         // Create controllers
         let tabBarController = UITabBarController()
-        tabBarController.tabBar.barTintColor = UIColor.blue
+        tabBarController.tabBar.barTintColor = UIColor.white
         
         let alarmTableViewController = AlarmTableViewController()
         let eventTableViewController = EventTableViewController()

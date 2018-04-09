@@ -233,11 +233,12 @@ class ViewHolder: UIView, UITextFieldDelegate {
             let whiteColor = UIColor(red: 251/256, green: 251/256, blue: 251/256, alpha: 1.0)
             zoneControl.backgroundColor = whiteColor
             daysControl.backgroundColor = whiteColor
-            clockView.backgroundColor = UIColor(red: 245/256, green: 245/256, blue: 245/256, alpha: 1.0)
+            clockView.backgroundColor = .white
             durationControl.backgroundColor = whiteColor
             timeControl.backgroundColor = whiteColor
             repeatingControl.backgroundColor = whiteColor
             nameControl.backgroundColor = whiteColor
+            
         }
     }
     
